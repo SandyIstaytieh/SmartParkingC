@@ -1,0 +1,35 @@
+/* Background and font settings */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('https://cdn.pixabay.com/photo/2021/04/29/13/26/parking-6217503_1280.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+}
+
+/* Container for content */
+.container {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  text-align: center;
+}
+
+/* Title */
+h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+/* Description */
+.description {
+  font-size: 20px;
+  max-width: 600px;
+}
